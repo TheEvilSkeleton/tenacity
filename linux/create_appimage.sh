@@ -79,7 +79,7 @@ linuxdeploy --list-plugins
 #============================================================================
 
 ln -sf --no-dereference . "${appdir}/usr"
-ln -sf share/applications/tenacity.desktop "${appdir}/tenacity.desktop"
+ln -sf share/applications/org.tenacityaudio.Tenacity.desktop "${appdir}/org.tenacityaudio.Tenacity.desktop"
 ln -sf share/icons/hicolor/scalable/apps/tenacity.svg "${appdir}/tenacity.svg"
 ln -sf share/icons/hicolor/scalable/apps/tenacity.svg "${appdir}/.DirIcon"
 

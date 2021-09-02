@@ -17,7 +17,7 @@ list( APPEND PIXMAPS
 
 if( NOT CMAKE_SYSTEM_NAME MATCHES "Darwin" )
    if( NOT WIN32)
-      install( FILES "${_SRCDIR}/tenacity.svg"
+      install( FILES "${_SRCDIR}/org.tenacityaudio.Tenacity.svg"
                DESTINATION "${_DATADIR}/icons/hicolor/scalable/apps" )
       install( DIRECTORY "${_SRCDIR}/icons/"
                DESTINATION "${_DATADIR}/icons/hicolor"
